@@ -9,10 +9,11 @@ html {
             top: 0;
             background-color: var(--bg1);
             .logo {
-                span {
+                p {
                     color: var(--primary-color);
                     font-size: 35px;
                     font-weight: 500;
+                    margin-bottom: 0px;
                     @include media-breakpoint-down(md) {
                         font-size: 25px;
                     }
@@ -377,11 +378,10 @@ html {
         footer {
             padding: 30px 0px;
             background-color: var(--bg1);
+
             .footer {
-
-
                 .logo {
-                    span {
+                    p {
                         color: var(--primary-color);
                         font-size: 18px;
                         font-weight: 500;
