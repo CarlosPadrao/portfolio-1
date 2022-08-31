@@ -1,0 +1,30 @@
+:root {
+
+    // primary
+    --primary-color: #5E3BEE;
+
+    // heading color
+    --heading-color: #282938;
+
+    // Text
+    --text: #1C1E53;
+
+    // black
+    --black: #000000;
+
+    // white
+    --white: #FFFFFF;
+
+    // light gray
+    --light-gray: #232536;
+
+    //Background-color1
+    --bg1: #F5FCFF;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+}
