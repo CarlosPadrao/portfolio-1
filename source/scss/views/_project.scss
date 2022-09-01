@@ -488,6 +488,8 @@ html {
                         font-weight: 500;
                         line-height: 24px;
                         letter-spacing: 0em;
+                        @include media-breakpoint-down(md) {
+                        }
                     }
                     #en {
                         color: var(--text);
@@ -499,6 +501,8 @@ html {
                         font-weight: 500;
                         line-height: 24px;
                         letter-spacing: 0;
+                        @include media-breakpoint-down(md) {
+                        }
                     }
                 }
             }
