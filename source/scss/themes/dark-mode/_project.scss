@@ -1,0 +1,249 @@
+html {
+    body.dark-mode {
+
+        header {
+            background-color: var(--bg1-dm);
+            .logo {
+                p {
+                    color: var(--primary-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+                h1 {
+                    color: var(--heading-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+            }
+            nav {
+                ul {
+                    li {
+                        &:hover {
+                        }
+                    }
+                    li a {
+                        color: var(--text-dm);
+                        &:hover {
+                            color: var(--primary-color-dm);
+                        }
+                    }
+                }
+            }
+            .contactHeader {
+                a {
+                    color: var(--text-dm);
+                        &:hover {
+                            color: var(--primary-color-dm);
+                        }
+                }
+            }
+        }
+
+        #start {
+            background-color: var(--bg1-dm);
+            @include media-breakpoint-down(md) {
+            }
+            .left {
+                .hello {
+                    color: var(--heading-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                    span {
+                        color: var(--primary-color-dm);
+                        @include media-breakpoint-down(md) {
+                        }
+                    }
+                }
+                h1 {
+                    color: var(--heading-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                    span {
+                        color: var(--primary-color-dm);
+                        @include media-breakpoint-down(md) {
+                        }
+                    }
+                }
+                p {
+                    color: var(--text-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+                a {
+                    color: var(--white-dm);
+                    background: var(--primary-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+            }
+            .right {
+                img {
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+            }
+        }
+
+        #skills {
+            background-color: var(--bg1-dm);
+            @include media-breakpoint-down(md) {
+            }
+
+            .content {
+                span {
+                    color: var(--primary-color-dm);
+                }
+                h2 {
+                    color: var(--heading-color-dm);
+                }
+            }
+            .box {
+                background-color: var(--bg1-dm);
+                img {
+                    box-shadow: 0px 0px 12px 0px rgb(22, 22, 22);
+                    background-color: #F5FCFF;
+                }
+                h3 {
+                    color: var(--heading-color-dm);
+                }
+                p {
+                    color: #FFF;
+                }
+            }
+        }
+
+        #about {
+            background-color: var(--bg1-dm);
+            @include media-breakpoint-down(md) {
+            }
+
+            img {
+                @include media-breakpoint-down(md) {
+                }
+            }
+            .content {
+                span {
+                    color: var(--primary-color-dm);
+                }
+                h2 {
+                    color: var(--text-dm);
+                }
+                p {
+                    color: var(--text-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                }
+            }
+        }
+
+        #portfolio {
+            background-color: var(--bg1-dm);
+            @include media-breakpoint-down(md) {
+            }
+
+            .content {
+                span {
+                    color: var(--primary-color-dm);
+                }
+                h2 {
+                    color: var(--text-dm);
+                }
+            }
+            .box {
+                .cards {
+                    box-shadow: 0px 4px 12px 0px rgb(22, 22, 22);
+
+                    img {
+                    }
+                    .content {
+                        padding: 24px;
+                        h3 {
+                            color: var(--heading-color-dm);
+                        }
+                        p {
+                            color: var(--text-dm);
+                        }
+                        a {
+                            color: #FFF;
+                            span {
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #contact {
+            background-color: var(--bg1-dm);
+            @include media-breakpoint-down(md) {
+            }
+
+            .content {
+                span {
+                    color: var(--primary-color-dm);
+                }
+                h2 {
+                    color: var(--text-dm);
+                }
+            }
+            #form {
+
+                label {
+                    color: var(--text-dm);
+                }
+
+                input {
+                    border: 1px solid var(--primary-color-dm);
+                }
+                #textArea {
+                    border: 1px solid var(--primary-color-dm);
+                    @include media-breakpoint-down(md) {
+                    }
+                    &::placeholder {
+                    }
+                }
+                button {
+                    background-color: var(--primary-color-dm);
+                    color: #FFF;
+                }
+            }
+        }
+
+        footer {
+            background-color: var(--bg1-dm);
+
+            .footer {
+                .logo {
+                    p {
+                        color: var(--primary-color-dm);
+                    }
+                    h1 {
+                        color: var(--heading-color-dm);
+                    }
+                }
+                .socialMedia {
+                    ul {
+                        li:not(:last-child) {
+                        }
+                        li a {
+                            &.github {
+                            }
+                            &.linkedin {
+                            }
+                            &.insta {
+                            }
+                        }
+                    }
+                }
+                .copyright {
+                    border-top: 1px solid var(--primary-color-dm);
+                    p {
+                        color: var(--heading-color-dm);
+                    }
+                }
+            }
+        }
+    }
+}
+

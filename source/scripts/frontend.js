@@ -1,5 +1,3 @@
-console.log('teste');
-//
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -23,5 +21,21 @@ $(document).ready(function(){
         });
         } // End if
     });
-});
+})
+
 //
+function darkMode() {
+    $('body').toggleClass('dark-mode');
+}
+
+function darkModeControl() {
+    const btn = document.querySelector('.btn-dark-mode');
+    console.log('clicou');
+    darkMode();
+}
+//
+// jQuery(function () {
+//     $('.btn-dark-mode').on('click', function () {
+//         darkMode();
+//     })
+// })
