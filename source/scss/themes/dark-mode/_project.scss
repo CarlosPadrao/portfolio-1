@@ -251,6 +251,23 @@ html {
                 }
             }
         }
+
+        &.portugues {
+            header {
+                .language {
+                    display: flex;
+    
+                    #pt {
+                        color: var(--white-dm);
+                        background-color: var(--primary-color-dm);
+                    }
+                    #en {
+                        color: var(--text);
+                        background-color: var(--bg2);
+                    }
+                }
+            }
+        }
     }
 }
 
