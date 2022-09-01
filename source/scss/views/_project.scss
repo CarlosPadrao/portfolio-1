@@ -8,6 +8,7 @@ html {
             position: sticky;
             top: 0;
             background-color: var(--bg1);
+
             .logo {
                 p {
                     color: var(--primary-color);
@@ -63,6 +64,11 @@ html {
                             color: var(--primary-color);
                             text-decoration: none;
                         }
+                }
+            }
+            .btn-dark-mode {
+                span {
+                    color: var(--primary-color);
                 }
             }
         }

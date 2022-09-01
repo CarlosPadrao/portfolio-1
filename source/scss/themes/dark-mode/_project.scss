@@ -3,6 +3,7 @@ html {
 
         header {
             background-color: var(--bg1-dm);
+
             .logo {
                 p {
                     color: var(--primary-color-dm);
@@ -35,6 +36,11 @@ html {
                         &:hover {
                             color: var(--primary-color-dm);
                         }
+                }
+            }
+            .btn-dark-mode {
+                span {
+                    color: var(--primary-color-dm);
                 }
             }
         }
@@ -85,7 +91,7 @@ html {
         }
 
         #skills {
-            background-color: var(--bg1-dm);
+            background-color: var(--bg2-dm);
             @include media-breakpoint-down(md) {
             }
 
@@ -99,6 +105,7 @@ html {
             }
             .box {
                 background-color: var(--bg1-dm);
+                box-shadow: 0px 0px 12px 0px rgb(22, 22, 22);
                 img {
                     box-shadow: 0px 0px 12px 0px rgb(22, 22, 22);
                     background-color: #F5FCFF;
@@ -175,7 +182,7 @@ html {
         }
 
         #contact {
-            background-color: var(--bg1-dm);
+            background-color: var(--bg2-dm);
             @include media-breakpoint-down(md) {
             }
 
@@ -211,7 +218,7 @@ html {
         }
 
         footer {
-            background-color: var(--bg1-dm);
+            background-color: var(--bg2-dm);
 
             .footer {
                 .logo {
