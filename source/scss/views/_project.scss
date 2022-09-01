@@ -66,6 +66,32 @@ html {
                         }
                 }
             }
+            .language {
+                display: flex;
+
+                #pt {
+                    color: var(--text);
+                    background-color: var(--bg2);
+                    text-decoration: none;
+                    padding: 4px 8px;
+                    border-radius: 4px 0 0 4px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                }
+                #en {
+                    color: var(--white);
+                    background-color: var(--primary-color);
+                    text-decoration: none;
+                    padding: 4px 8px;
+                    border-radius: 0 4px 4px 0;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0;
+                }
+            }
             .btn-dark-mode {
                 span {
                     color: var(--primary-color);
@@ -442,6 +468,37 @@ html {
                     p {
                         font-size: 12px;
                         color: var(--heading-color);
+                    }
+                }
+            }
+        }
+
+        &.portugues {
+            header {
+                .language {
+                    display: flex;
+    
+                    #pt {
+                        color: var(--white);
+                        background-color: var(--primary-color);
+                        text-decoration: none;
+                        padding: 4px 8px;
+                        border-radius: 4px 0 0 4px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                    }
+                    #en {
+                        color: var(--text);
+                        background-color: var(--bg2);
+                        text-decoration: none;
+                        padding: 4px 8px;
+                        border-radius: 0 4px 4px 0;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0;
                     }
                 }
             }
