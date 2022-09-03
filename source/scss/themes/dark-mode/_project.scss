@@ -30,14 +30,7 @@ html {
                     }
                 }
             }
-            .contactHeader {
-                a {
-                    color: var(--text-dm);
-                        &:hover {
-                            color: var(--primary-color-dm);
-                        }
-                }
-            }
+            
             .btn-dark-mode {
                 span {
                     color: var(--primary-color-dm);

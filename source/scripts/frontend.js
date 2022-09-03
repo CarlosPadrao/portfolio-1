@@ -30,9 +30,23 @@ function darkMode() {
 
 function darkModeControl() {
     const btn = document.querySelector('.btn-dark-mode');
-    console.log('clicou');
     darkMode();
 }
+//
+function scrolling() {
+    document.onscroll = function() {
+        scrollY;
+        if (scrollY >= 100) {
+            document.querySelector('header').style.padding = "20px 0px"
+            document.querySelector('header').style.borderBottom = "1px solid #866cc4"
+        } else {
+            document.querySelector('header').style.padding = "0px 0px"
+            document.querySelector('header').style.borderBottom = "none"
+        }
+    }
+    
+}
+scrolling();
 //
 // jQuery(function () {
 //     $('.btn-dark-mode').on('click', function () {
