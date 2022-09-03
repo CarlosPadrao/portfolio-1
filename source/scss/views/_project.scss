@@ -163,7 +163,7 @@ html {
                     margin: 0 0 0 auto;
                     width: 85%;
                     height: auto;
-                    border-radius: 0 0 40% 46%;
+                    border-radius: 0 0 29% 26%;
                     @include media-breakpoint-down(md) {
                         width: 75%;
                         margin: 0 auto;
@@ -234,7 +234,7 @@ html {
             img {
                 width: 370px;
                 height: auto;
-                border-radius: 0 0 40% 40%;
+                border-radius: 0 0 29% 15%;
                 @include media-breakpoint-down(md) {
                     width: 60%;
                     display: flex;
