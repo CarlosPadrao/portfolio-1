@@ -100,7 +100,7 @@ html {
                     line-height: 24px;
                     letter-spacing: 0em;
                     @include media-breakpoint-down(md) {
-                        margin-bottom: 0px;
+                        margin-bottom: 22px;
                     }
                     span {
                         color: var(--primary-color);
@@ -116,8 +116,9 @@ html {
                     line-height: 67px;
                     letter-spacing: 0em;
                     @include media-breakpoint-down(md) {
-                        font-size: 40px;
-                        margin-bottom: 0px;
+                        font-size: 35px;
+                        line-height: 21px;
+                        margin-bottom: 0;
                     }
                     span {
                         color: var(--primary-color);
@@ -126,7 +127,8 @@ html {
                         line-height: 67px;
                         letter-spacing: 0em;
                         @include media-breakpoint-down(md) {
-                            font-size: 40px;
+                            font-size: 36px;
+                            line-height: 55px;
                         }
                     }
                 }
@@ -158,17 +160,24 @@ html {
                 }
             }
             .right {
-                img {
-                    display: flex;
-                    margin: 0 0 0 auto;
-                    width: 85%;
-                    height: auto;
-                    border-radius: 0 0 29% 26%;
-                    @include media-breakpoint-down(md) {
-                        width: 75%;
-                        margin: 0 auto;
-                    }
-                }
+                background-image: url('../images/030992.png');
+                height: 100%;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 100px 26%;
+                filter: drop-shadow(3px -3px 7px #282938);
+                // img {
+                //     display: flex;
+                //     margin: 0 0 0 auto;
+                //     width: 85%;
+                //     height: auto;
+                //     border-radius: 0 0 29% 26%;
+                //     @include media-breakpoint-down(md) {
+                //         width: 75%;
+                //         margin: 0 auto;
+                //     }
+                // }
             }
         }
 
@@ -228,20 +237,34 @@ html {
             padding: 70px 0px;
             background-color: var(--bg1);
             @include media-breakpoint-down(md) {
-                padding: 30px 0px;
+                padding: 10px 0px;
             }
 
-            img {
-                width: 370px;
-                height: auto;
-                border-radius: 0 0 29% 15%;
+            .left {
+                background-image: url('../images/030992.png');
+                height: 229px;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 100px 26%;
+                filter: drop-shadow(3px -3px 7px #282938);
                 @include media-breakpoint-down(md) {
-                    width: 60%;
-                    display: flex;
-                    margin: 0 auto;
-                    margin-bottom: 10px;
+                    background-position: 55px 26%;
+                    margin-bottom: 15px;
                 }
             }
+
+            // img {
+            //     width: 370px;
+            //     height: auto;
+            //     border-radius: 0 0 29% 15%;
+            //     @include media-breakpoint-down(md) {
+            //         width: 60%;
+            //         display: flex;
+            //         margin: 0 auto;
+            //         margin-bottom: 10px;
+            //     }
+            // }
             .content {
                 span {
                     color: var(--primary-color);
